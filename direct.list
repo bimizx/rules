@@ -59,7 +59,7 @@ DOMAIN-SUFFIX,weixinsxy.com
 DOMAIN-SUFFIX,wx.gtimg.com
 USER-AGENT,MicroMessenger*
 USER-AGENT,WeChat*
-IP-ASN,132203
+IP-ASN,132203,no-resolve
 
 # 抖音
 DOMAIN,lf3-static.bytednsdoc.com
