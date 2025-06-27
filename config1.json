@@ -1,0 +1,170 @@
+{
+	"log": {
+		"disabled": false,
+		"level": "info",
+		"timestamp": true
+	},
+	"ntp": {
+		"enabled": true,
+		"server": "time.apple.com",
+		"detour": "direct-out"
+	},
+	"dns": {
+		"servers": [
+			{
+				"tag": "direct-dns",
+				"address": "223.5.5.5",
+				"detour": "direct-out"
+			},
+			{
+				"tag": "proxy-dns",
+				"address": "tls://8.8.8.8",
+				"detour": "香港1"
+			}
+		],
+		"rules": [
+			{
+				"domain": "time.apple.com",
+				"action": "route",
+				"server": "default-dns"
+			}
+		],
+		"disable_cache": false,
+		"disable_expire": false,
+		"independent_cache": false,
+		"final": "default-dns"
+	},
+	"inbounds": [
+  {
+    "type": "tproxy",
+    "tag": "tproxy-in",
+    "listen": "0.0.0.0",
+    "listen_port": 7895
+  }
+	],
+	"outbounds": [
+		{
+			"type": "direct",
+			"tag": "direct-out",
+			"routing_mark": 100
+		},
+		{
+			"type": "shadowsocks",
+			"tag": "香港1",
+			"routing_mark": 100,
+			"server": "sg.xnh98d9c32om.com",
+			"server_port": 24565,
+			"password": "11905b6c-3e26-416c-a54e-eb3f44a792a2",
+			"method": "aes-128-gcm"
+		},
+		{
+			"type": "shadowsocks",
+			"tag": "美国1",
+			"routing_mark": 100,
+			"server": "sg.xnh98d9c32om.com",
+			"server_port": 24536,
+			"password": "11905b6c-3e26-416c-a54e-eb3f44a792a2",
+			"method": "aes-128-gcm"
+		},
+		{
+			"type": "shadowsocks",
+			"tag": "香港2",
+			"routing_mark": 100,
+			"server": "sg.xnh98d9c32om.com",
+			"server_port": 24503,
+			"password": "11905b6c-3e26-416c-a54e-eb3f44a792a2",
+			"method": "aes-128-gcm"
+		}
+	],
+	"route": {
+		"rules": [
+			{
+				"inbound": "dns-in",
+				"action": "hijack-dns"
+			},
+			{
+				"rule_set": [
+					"cfg-Geosite_cn-rule",
+					"cfg-Geosite_private-rule",
+					"cfg-Geoip_cn-rule",
+					"cfg-geoip_private-rule"
+				],
+				"action": "route",
+				"outbound": "direct-out"
+			},
+			{
+				"rule_set": [
+					"cfg-AI-rule"
+				],
+				"action": "route",
+				"outbound": "美国1"
+			},
+			{
+				"rule_set": [
+					"cfg-Googl-rule"
+				],
+				"action": "route",
+				"outbound": "香港2"
+			},
+			{
+				"rule_set": [
+					"cfg-Geosite-rule"
+				],
+				"action": "route",
+				"outbound": "香港1"
+			}
+		],
+		"rule_set": [
+			{
+				"type": "remote",
+				"tag": "cfg-Googl-rule",
+				"format": "binary",
+				"url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/google.srs"
+			},
+			{
+				"type": "remote",
+				"tag": "cfg-Tiktok-rule",
+				"format": "binary",
+				"url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/tiktok.srs"
+			},
+			{
+				"type": "remote",
+				"tag": "cfg-AI-rule",
+				"format": "binary",
+				"url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ai-!cn.srs"
+			},
+			{
+				"type": "remote",
+				"tag": "cfg-Geosite_cn-rule",
+				"format": "binary",
+				"url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/cn.srs"
+			},
+			{
+				"type": "remote",
+				"tag": "cfg-Geosite_private-rule",
+				"format": "binary",
+				"url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/private.srs"
+			},
+			{
+				"type": "remote",
+				"tag": "cfg-Geoip_cn-rule",
+				"format": "binary",
+				"url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/cn.srs"
+			},
+			{
+				"type": "remote",
+				"tag": "cfg-geoip_private-rule",
+				"format": "binary",
+				"url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/private.srs"
+			},
+			{
+				"type": "remote",
+				"tag": "cfg-Geosite-rule",
+				"format": "binary",
+				"url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-!cn.srs"
+			}
+		],
+		"auto_detect_interface": true,
+		"final": "香港1"
+	}
+}
