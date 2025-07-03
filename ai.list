@@ -50,5 +50,5 @@ IP-ASN,20473,no-resolve
 IP-CIDR,24.199.123.28/32,no-resolve
 IP-CIDR,64.23.132.171/32,no-resolve
 
-apple-relay.apple.com
-mask-api.icloud.com
+DOMAIN,apple-relay.apple.com
+DOMAIN,mask-api.icloud.com
