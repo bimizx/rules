@@ -159,8 +159,8 @@ DOMAIN-SUFFIX,yammer.com
 DOMAIN-SUFFIX,yammerusercontent.com
 
 # 部落冲突
-clashofclans.com
-supercell.com
+DOMAIN-SUFFIX,clashofclans.com
+DOMAIN-SUFFIX,supercell.com
 
 # 洋葱学园
-yangcong345.com
+DOMAIN-SUFFIX,yangcong345.com
