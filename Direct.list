@@ -2,8 +2,8 @@
 DOMAIN-SUFFIX,cn
 
 # 部落冲突
-DOMAIN-SUFFIX,clashofclans.com
-DOMAIN-SUFFIX,supercell.com
+# DOMAIN-SUFFIX,clashofclans.com
+# DOMAIN-SUFFIX,supercell.com
 
 # 洋葱学园
 DOMAIN-SUFFIX,yangcong345.com
