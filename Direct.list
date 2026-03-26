@@ -13,3 +13,6 @@ DOMAIN,random.ouonet.org
 
 # 快手漏网之鱼
 DOMAIN-SUFFIX,gifshow.com
+
+# Ninebot
+DOMAIN-SUFFIX,ninebot.com
