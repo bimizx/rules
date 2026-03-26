@@ -30,6 +30,10 @@ IP-CIDR,198.183.17.0/24,no-resolve
 IP-CIDR,205.180.175.0/24,no-resolve
 
 
+# IPV6
+IP-CIDR6,::/0,DIRECT,no-resolve
+
+
 # CN域名
 DOMAIN-SUFFIX,cn
 
