@@ -1,10 +1,22 @@
 # Surge
 DOMAIN,nssurge.com
+
+
 # 罗技
 DOMAIN-SUFFIX,logitech.io
+
+
+# 部落冲突
+DOMAIN-SUFFIX,clashofclans.com
+DOMAIN-SUFFIX,supercell.com
+
+
 # 漏网之鱼
 DOMAIN,yt3.ggpht.com
 DOMAIN,i.ytimg.com
+
+
+
 # ios_rule_script
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,avoddashs
