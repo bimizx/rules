@@ -4,6 +4,8 @@ DOMAIN,nssurge.com
 
 # 谷歌
 DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,googleapis.com
 
 
 # 罗技
