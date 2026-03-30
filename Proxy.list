@@ -2,6 +2,10 @@
 DOMAIN,nssurge.com
 
 
+# 谷歌
+DOMAIN-SUFFIX,gstatic.com
+
+
 # 罗技
 DOMAIN-SUFFIX,logitech.io
 
