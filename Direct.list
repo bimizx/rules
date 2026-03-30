@@ -33,6 +33,30 @@ IP-CIDR,198.183.17.0/24,no-resolve
 IP-CIDR,205.180.175.0/24,no-resolve
 
 
+# Tencent
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,gtimg.com
+
+# Wechat
+DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
+DOMAIN,slife.xy-asia.com
+DOMAIN-SUFFIX,iot-tencent.com
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,wechatlegal.net
+DOMAIN-SUFFIX,wechatos.net
+DOMAIN-SUFFIX,wechatpay.com
+DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,weixinbridge.com
+DOMAIN-SUFFIX,weixinsxy.com
+IP-CIDR,106.53.154.228,no-resolve
+IP-CIDR,121.14.23.18,no-resolve
+IP-CIDR,183.37.125.39,no-resolve
+
+
 # IPV6
 IP-CIDR6,::/0,DIRECT,no-resolve
 
