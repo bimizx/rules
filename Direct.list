@@ -52,6 +52,7 @@ DOMAIN-SUFFIX,wechatpay.com
 DOMAIN-SUFFIX,weixin.com
 DOMAIN-SUFFIX,weixinbridge.com
 DOMAIN-SUFFIX,weixinsxy.com
+USER-AGENT,MicroMessenger*
 
 
 # IPV6
