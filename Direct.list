@@ -55,6 +55,7 @@ DOMAIN-SUFFIX,weixinsxy.com
 IP-CIDR,106.53.154.228,no-resolve
 IP-CIDR,121.14.23.18,no-resolve
 IP-CIDR,183.37.125.39,no-resolve
+IP-CIDR,183.47.100.89,no-resolve
 
 
 # IPV6
