@@ -40,6 +40,13 @@ DOMAIN-SUFFIX,xvideos-cdn.com
 DOMAIN-SUFFIX,xvideos.com
 
 
+# Reddit Services
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditstatic.com
+
+
 # Twitter
 DOMAIN-KEYWORD,twitter
 DOMAIN-SUFFIX,periscope.tv
