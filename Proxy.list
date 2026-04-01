@@ -72,6 +72,18 @@ DOMAIN-SUFFIX,instagr.am
 DOMAIN-SUFFIX,instagram.com
 
 
+# 个人收藏
+# 社会
+DOMAIN-SUFFIX,gawc.lboro.ac.uk
+DOMAIN-SUFFIX,worldhappiness.report
+DOMAIN-SUFFIX,freedomhouse.org
+DOMAIN-SUFFIX,minzhuzhongguo.org
+DOMAIN-SUFFIX,chinadigitaltimes.net
+DOMAIN-SUFFIX,8964museum.com
+DOMAIN-SUFFIX,greatfire.org
+DOMAIN-SUFFIX,tiananmenmother.org
+DOMAIN-SUFFIX,xijinping.one
+
 # Wikipedia
 DOMAIN-SUFFIX,mediawiki.org
 DOMAIN-SUFFIX,wikibooks.org
