@@ -107,6 +107,7 @@ DOMAIN-SUFFIX,wiktionary.org
 
 
 # 热门域名
+DOMAIN-KEYWORD,amazon
 DOMAIN-SUFFIX,9to5mac.com
 DOMAIN-SUFFIX,adobe.com
 DOMAIN-SUFFIX,bing.com
