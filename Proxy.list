@@ -60,6 +60,7 @@ DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,twitter.jp
 DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,x.ai
 
 
 # Facebook
@@ -137,3 +138,5 @@ DOMAIN-SUFFIX,duangks.com
 DOMAIN-SUFFIX,clashx.pro
 DOMAIN-SUFFIX,macrumors.com
 DOMAIN-SUFFIX,archive.org
+DOMAIN-SUFFIX,html5test.co
+DOMAIN-SUFFIX,itu.int
