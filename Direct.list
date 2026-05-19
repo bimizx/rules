@@ -56,7 +56,7 @@ USER-AGENT,MicroMessenger*
 
 
 # IPV6
-IP-CIDR6,::/0,DIRECT,no-resolve
+#IP-CIDR6,::/0,DIRECT,no-resolve
 
 
 # CN域名
@@ -659,4 +659,3 @@ DOMAIN-SUFFIX,zhongsou.com
 DOMAIN-SUFFIX,zhuihd.com
 DOMAIN-SUFFIX,cmbchina.com
 DOMAIN-SUFFIX,95516.com
-DOMAIN-SUFFIX,test-ipv6.com
