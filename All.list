@@ -192,7 +192,6 @@ DOMAIN-SUFFIX,wiktionary.org
 DOMAIN-KEYWORD,amazon
 DOMAIN-SUFFIX,9to5mac.com
 DOMAIN-SUFFIX,adobe.com
-DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,easebar.com
@@ -298,11 +297,6 @@ DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,sora.com
-
-
-# Apple Intelligence
-DOMAIN,apple-relay.apple.com
-DOMAIN,mask-api.icloud.com
 
 
 # Tiktok
