@@ -20,17 +20,7 @@ DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
-DOMAIN-SUFFIX,push-apple.com.akadns.net
 IP-CIDR,17.0.0.0/8,no-resolve
-IP-CIDR,63.92.224.0/19,no-resolve
-IP-CIDR,65.199.22.0/23,no-resolve
-IP-CIDR,139.178.128.0/18,no-resolve
-IP-CIDR,144.178.0.0/19,no-resolve
-IP-CIDR,144.178.36.0/22,no-resolve
-IP-CIDR,144.178.48.0/20,no-resolve
-IP-CIDR,192.35.50.0/24,no-resolve
-IP-CIDR,198.183.17.0/24,no-resolve
-IP-CIDR,205.180.175.0/24,no-resolve
 
 
 # Tencent
@@ -45,9 +35,6 @@ IP-CIDR,183.47.125.39/32,no-resolve
 IP-CIDR,14.22.9.27/32,no-resolve
 IP-CIDR,183.2.134.144/32,no-resolve
 IP-CIDR,110.43.121.3/32,no-resolve
-DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
-DOMAIN,slife.xy-asia.com
-DOMAIN-SUFFIX,iot-tencent.com
 DOMAIN-SUFFIX,qlogo.cn
 DOMAIN-SUFFIX,qpic.cn
 DOMAIN-SUFFIX,servicewechat.com
