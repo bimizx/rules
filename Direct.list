@@ -23,6 +23,20 @@ DOMAIN-SUFFIX,mzstatic.com
 IP-CIDR,17.0.0.0/8,no-resolve
 
 
+# 常用IP
+IP-CIDR,121.14.23.18/32,no-resolve
+IP-CIDR,14.18.251.125/32,no-resolve
+IP-CIDR,183.2.134.144/32,no-resolve
+IP-CIDR,14.22.9.27/32,no-resolve
+IP-CIDR,110.43.121.3/32,no-resolve
+IP-CIDR,183.47.0.0/16,no-resolve
+IP-CIDR,106.55.0.0/16,no-resolve
+IP-CIDR6,2402:4e00::/32,no-resolve
+IP-CIDR6,240c::/16,no-resolve
+IP-CIDR6,240e::/16,no-resolve
+IP-CIDR6,2408::/16,no-resolve
+
+
 # Tencent
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,gtimg.com
