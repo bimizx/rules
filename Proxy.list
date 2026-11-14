@@ -1,16 +1,21 @@
 # 谷歌
-DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,google
-DOMAIN-SUFFIX,2mdn.net
-DOMAIN-SUFFIX,c.gle
-DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,withgoogle.com
 DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,adtrafficquality.google
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,2mdn.net
 
 
 # 部落冲突
@@ -34,7 +39,7 @@ DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditstatic.com
 
 # Twitter
-DOMAIN-KEYWORD,twitter
+DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitter.com
@@ -43,7 +48,9 @@ DOMAIN-SUFFIX,x.ai
 
 
 # 微软
-DOMAIN-KEYWORD,microsoft
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,cloud.microsoft
 DOMAIN-SUFFIX,aspnetcdn.com
 DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,azureedge.net
@@ -69,21 +76,17 @@ DOMAIN-SUFFIX,windows.net
 
 
 # Facebook
-DOMAIN-KEYWORD,facebook
-DOMAIN-KEYWORD,fbcdn
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,fb.me
 DOMAIN-SUFFIX,fbcdn.net
 
 
 # Instagram
-DOMAIN-KEYWORD,instagram
 DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,instagram.com
 
 
 # 个人收藏
-# 社会
 DOMAIN-SUFFIX,gawc.lboro.ac.uk
 DOMAIN-SUFFIX,worldhappiness.report
 DOMAIN-SUFFIX,freedomhouse.org
@@ -98,38 +101,6 @@ DOMAIN-SUFFIX,xijinping.one
 # Wikipedia
 DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikipedia.org
-
-
-# 热门域名
-DOMAIN-KEYWORD,amazon
-DOMAIN-SUFFIX,9to5mac.com
-DOMAIN-SUFFIX,adobe.com
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,docker.com
-DOMAIN-SUFFIX,easebar.com
-DOMAIN-SUFFIX,fastly.net
-DOMAIN-SUFFIX,logitech.io
-DOMAIN-SUFFIX,medium.com
-DOMAIN-SUFFIX,nssurge.com
-DOMAIN-SUFFIX,ntp.org
-DOMAIN-SUFFIX,openwrt.org
-DOMAIN-SUFFIX,pixelmator.com
-DOMAIN-SUFFIX,pixiv.net
-DOMAIN-SUFFIX,v2ex.com
-DOMAIN-SUFFIX,wordpress.com
-DOMAIN-SUFFIX,xda-developers.com
-DOMAIN-SUFFIX,duolingo.com
-DOMAIN-SUFFIX,unity3d.com
-DOMAIN-SUFFIX,chess.com
-DOMAIN-SUFFIX,tampermonkey.net
-DOMAIN-SUFFIX,linux.do
-DOMAIN-SUFFIX,npmjs.org
-DOMAIN-SUFFIX,duangks.com
-DOMAIN-SUFFIX,macrumors.com
-DOMAIN-SUFFIX,archive.org
-DOMAIN-SUFFIX,html5test.co
-DOMAIN-SUFFIX,itu.int
 
 
 # Telegram
@@ -161,13 +132,12 @@ IP-CIDR6,2001:67c:4e8:f004::a/128,no-resolve
 IP-CIDR6,2001:b28:f23f:f005::a/128,no-resolve
 
 
-# Github 11月常用域名有
-#DOMAIN-SUFFIX,github.com
-#DOMAIN-SUFFIX,github.io
-#DOMAIN-SUFFIX,githubapp.com
-#DOMAIN-SUFFIX,githubassets.com
-#DOMAIN-SUFFIX,githubusercontent.com
-#DOMAIN-SUFFIX,githubcopilot.com
+# Github
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubcopilot.com
 
 
 # Brew
@@ -190,33 +160,23 @@ DOMAIN-SUFFIX,wenxuecity.com
 DOMAIN-SUFFIX,bbc.com
 
 
-# OpenAI 常用域名有
-#DOMAIN-SUFFIX,auth0.com
-#DOMAIN-SUFFIX,challenges.cloudflare.com
-#DOMAIN-SUFFIX,chatgpt.com
-#DOMAIN-SUFFIX,client-api.arkoselabs.com
-#DOMAIN-SUFFIX,events.statsigapi.net
-#DOMAIN-SUFFIX,featuregates.org
-#DOMAIN-SUFFIX,identrust.com
-#DOMAIN-SUFFIX,intercom.io
-#DOMAIN-SUFFIX,intercomcdn.com
-#DOMAIN-SUFFIX,oaistatic.com
-#DOMAIN-SUFFIX,oaiusercontent.com
-#DOMAIN-SUFFIX,openai.com
-#DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-#DOMAIN-SUFFIX,sentry.io
-#DOMAIN-SUFFIX,stripe.com
-#DOMAIN-SUFFIX,sora.com
+# OpenAI
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,stripe.com
 
 
-# Tiktok 常用域名有
-#DOMAIN-KEYWORD,tiktok
-#DOMAIN-SUFFIX,byteoversea.com
-#DOMAIN-SUFFIX,ibytedtos.com
-#DOMAIN-SUFFIX,ipstatp.com
-#DOMAIN-SUFFIX,muscdn.com
-#DOMAIN-SUFFIX,musical.ly
-#DOMAIN-SUFFIX,tik-tokapi.com
+# Tiktok
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokpangle.us
+DOMAIN-SUFFIX,tiktokpangle-cdn-us.com
 
 
 # 常用域名
@@ -228,6 +188,7 @@ DOMAIN-SUFFIX,33across.com
 DOMAIN-SUFFIX,3lift.com
 DOMAIN-SUFFIX,4dex.io
 DOMAIN-SUFFIX,8ziyuan.com
+DOMAIN-SUFFIX,9to5mac.com
 DOMAIN-SUFFIX,a-mo.net
 DOMAIN-SUFFIX,acuityplatform.com
 DOMAIN-SUFFIX,ad.gt
@@ -237,6 +198,7 @@ DOMAIN-SUFFIX,adgrx.com
 DOMAIN-SUFFIX,adkernel.com
 DOMAIN-SUFFIX,admanmedia.com
 DOMAIN-SUFFIX,adnxs.com
+DOMAIN-SUFFIX,adobe.com
 DOMAIN-SUFFIX,adopsboost.com
 DOMAIN-SUFFIX,adsafeprotected.com
 DOMAIN-SUFFIX,adsappier.com
@@ -249,7 +211,6 @@ DOMAIN-SUFFIX,adsdk8.cc
 DOMAIN-SUFFIX,adsrvr.org
 DOMAIN-SUFFIX,adtarget.com.tr
 DOMAIN-SUFFIX,adtelligent.com
-DOMAIN-SUFFIX,adtrafficquality.google
 DOMAIN-SUFFIX,agkn.com
 DOMAIN-SUFFIX,akamaihd.net
 DOMAIN-SUFFIX,akamaized.net
@@ -268,6 +229,7 @@ DOMAIN-SUFFIX,appier.net
 DOMAIN-SUFFIX,appiersig.com
 DOMAIN-SUFFIX,applovin.com
 DOMAIN-SUFFIX,appsflyersdk.com
+DOMAIN-SUFFIX,archive.org
 DOMAIN-SUFFIX,asus.com
 DOMAIN-SUFFIX,ay.delivery
 DOMAIN-SUFFIX,bbci.co.uk
@@ -280,13 +242,13 @@ DOMAIN-SUFFIX,bzhl.cc
 DOMAIN-SUFFIX,casalemedia.com
 DOMAIN-SUFFIX,ccgateway.net
 DOMAIN-SUFFIX,cfw.guide
-DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chaturbate.com
+DOMAIN-SUFFIX,chess.com
 DOMAIN-SUFFIX,chinamobile.com
 DOMAIN-SUFFIX,clarity.ms
 DOMAIN-SUFFIX,clarium.io
 DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,cloud.microsoft
+DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN-SUFFIX,cognitivlabs.com
 DOMAIN-SUFFIX,comodoca.com
@@ -299,7 +261,6 @@ DOMAIN-SUFFIX,cpmstar.com
 DOMAIN-SUFFIX,creativecdn.com
 DOMAIN-SUFFIX,criteo.com
 DOMAIN-SUFFIX,crsspxl.com
-DOMAIN-SUFFIX,csp.withgoogle.com
 DOMAIN-SUFFIX,ctm.net
 DOMAIN-SUFFIX,decibelinsight.net
 DOMAIN-SUFFIX,deepintent.com
@@ -307,11 +268,15 @@ DOMAIN-SUFFIX,demdex.net
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,disqus.com
 DOMAIN-SUFFIX,dnse2.com
+DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,doppiocdn.com
 DOMAIN-SUFFIX,dotomi.com
 DOMAIN-SUFFIX,doubleverify.com
+DOMAIN-SUFFIX,duangks.com
 DOMAIN-SUFFIX,duoduo.uno
+DOMAIN-SUFFIX,duolingo.com
 DOMAIN-SUFFIX,dv.tech
+DOMAIN-SUFFIX,easebar.com
 DOMAIN-SUFFIX,epson.com
 DOMAIN-SUFFIX,esim.gg
 DOMAIN-SUFFIX,eskimi.com
@@ -321,6 +286,7 @@ DOMAIN-SUFFIX,everesttech.net
 DOMAIN-SUFFIX,eyeota.net
 DOMAIN-SUFFIX,facebook.net
 DOMAIN-SUFFIX,fastly-edge.com
+DOMAIN-SUFFIX,fastly.net
 DOMAIN-SUFFIX,fedoraproject.org
 DOMAIN-SUFFIX,floxis.tech
 DOMAIN-SUFFIX,fluxtrck.site
@@ -329,20 +295,8 @@ DOMAIN-SUFFIX,fwmrm.net
 DOMAIN-SUFFIX,gammaplatform.com
 DOMAIN-SUFFIX,giphy.com
 DOMAIN-SUFFIX,giscus.app
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,githubcopilot.com
-DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,go-mpulse.net
 DOMAIN-SUFFIX,godkc.com
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,googleadservices.com
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,gravatar.com
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,gumgum.com
@@ -351,6 +305,7 @@ DOMAIN-SUFFIX,hackios.net
 DOMAIN-SUFFIX,hadronid.net
 DOMAIN-SUFFIX,hcaptcha.com
 DOMAIN-SUFFIX,histats.com
+DOMAIN-SUFFIX,html5test.co
 DOMAIN-SUFFIX,ibyteimg.com
 DOMAIN-SUFFIX,id5-sync.com
 DOMAIN-SUFFIX,imscc.cc
@@ -364,6 +319,7 @@ DOMAIN-SUFFIX,ipredictive.com
 DOMAIN-SUFFIX,ipsw.dev
 DOMAIN-SUFFIX,iqm.com
 DOMAIN-SUFFIX,iqzonertb.live
+DOMAIN-SUFFIX,itu.int
 DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,jwsc.eu.org
 DOMAIN-SUFFIX,knowsex.net
@@ -375,14 +331,16 @@ DOMAIN-SUFFIX,lenovo.com
 DOMAIN-SUFFIX,liadm.com
 DOMAIN-SUFFIX,lijit.com
 DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,linux.do
+DOMAIN-SUFFIX,logitech.io
 DOMAIN-SUFFIX,loopme.me
+DOMAIN-SUFFIX,macrumors.com
 DOMAIN-SUFFIX,mathtag.com
 DOMAIN-SUFFIX,medallia.eu
 DOMAIN-SUFFIX,media.net
 DOMAIN-SUFFIX,mediagotechnology.com
+DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,meta.ai
-DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN-SUFFIX,minutemedia-prebid.com
 DOMAIN-SUFFIX,mixpanel.com
 DOMAIN-SUFFIX,mmcdn.com
@@ -396,15 +354,15 @@ DOMAIN-SUFFIX,nip.io
 DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,nodeseek.org
 DOMAIN-SUFFIX,nova.moe
-DOMAIN-SUFFIX,ntdtv.com
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,ntp.org
 DOMAIN-SUFFIX,o2online.de
 DOMAIN-SUFFIX,o9.de
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,omnitagjs.com
 DOMAIN-SUFFIX,onetag-sys.com
 DOMAIN-SUFFIX,onthe.io
-DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openwrt.org
 DOMAIN-SUFFIX,openx.net
 DOMAIN-SUFFIX,opera.com
 DOMAIN-SUFFIX,optable.co
@@ -413,9 +371,10 @@ DOMAIN-SUFFIX,p7cloud.net
 DOMAIN-SUFFIX,picsew.app
 DOMAIN-SUFFIX,ping0.cc
 DOMAIN-SUFFIX,pippio.com
+DOMAIN-SUFFIX,pixelmator.com
+DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pornpics.com
 DOMAIN-SUFFIX,postrelease.com
-DOMAIN-SUFFIX,powerapps.com
 DOMAIN-SUFFIX,presage.io
 DOMAIN-SUFFIX,primis.tech
 DOMAIN-SUFFIX,privacy-mgmt.com
@@ -438,7 +397,6 @@ DOMAIN-SUFFIX,scorecardresearch.com
 DOMAIN-SUFFIX,sectigo.com
 DOMAIN-SUFFIX,seedtag.com
 DOMAIN-SUFFIX,semasio.net
-DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,siftscience.com
 DOMAIN-SUFFIX,simpli.fi
 DOMAIN-SUFFIX,singular.net
@@ -456,11 +414,11 @@ DOMAIN-SUFFIX,staticneo.com
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,stripchat.com
-DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,stripe.network
 DOMAIN-SUFFIX,strpst.com
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,taboola.com
+DOMAIN-SUFFIX,tampermonkey.net
 DOMAIN-SUFFIX,tao.co
 DOMAIN-SUFFIX,tapad.com
 DOMAIN-SUFFIX,telefonica.de
@@ -471,10 +429,6 @@ DOMAIN-SUFFIX,temu.com
 DOMAIN-SUFFIX,termius.com
 DOMAIN-SUFFIX,thrtle.com
 DOMAIN-SUFFIX,thscprts.com
-DOMAIN-SUFFIX,tiktokcdn.com
-DOMAIN-SUFFIX,tiktokpangle-cdn-us.com
-DOMAIN-SUFFIX,tiktokpangle.us
-DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,topupsecure.com
 DOMAIN-SUFFIX,trafficjunky.com
 DOMAIN-SUFFIX,trafficjunky.net
@@ -486,6 +440,7 @@ DOMAIN-SUFFIX,trustedstack.com
 DOMAIN-SUFFIX,turn.com
 DOMAIN-SUFFIX,tynt.com
 DOMAIN-SUFFIX,ukaim.com
+DOMAIN-SUFFIX,unity3d.com
 DOMAIN-SUFFIX,unpkg.com
 DOMAIN-SUFFIX,unrulymedia.com
 DOMAIN-SUFFIX,uscardforum.com
@@ -493,6 +448,7 @@ DOMAIN-SUFFIX,useinsider.com
 DOMAIN-SUFFIX,usercentrics.eu
 DOMAIN-SUFFIX,usertrust.com
 DOMAIN-SUFFIX,v2core.com
+DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,viki.com
 DOMAIN-SUFFIX,viki.io
 DOMAIN-SUFFIX,voipstunt.com
@@ -500,7 +456,9 @@ DOMAIN-SUFFIX,vungle.com
 DOMAIN-SUFFIX,weex.com
 DOMAIN-SUFFIX,wetvinfo.com
 DOMAIN-SUFFIX,wnq.top
+DOMAIN-SUFFIX,wordpress.com
 DOMAIN-SUFFIX,wp.com
+DOMAIN-SUFFIX,xda-developers.com
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,yellowblue.io
 DOMAIN-SUFFIX,yueaige.com
