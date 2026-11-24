@@ -81,8 +81,10 @@ DOMAIN-SUFFIX,yangcong345.com
 DOMAIN-SUFFIX,ninebot.com
 
 
-# 常用IP
-
+# 服务器
+IP-CIDR,179.255.97.37/32,no-resolve
+IP-CIDR6,2605:52c0:2:5970:be24:11ff:fe5b:5a42/128,no-resolve
+DOMAIN-SUFFIX,bimi.blog
 
 
 # 常用域名
